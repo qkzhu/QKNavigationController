@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'QKNavigationController_Example' do
+  pod 'QKNavigationController', :path => '../'
+
+  target 'QKNavigationController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
