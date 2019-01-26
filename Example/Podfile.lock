@@ -1,0 +1,16 @@
+PODS:
+  - QKNavigationController (0.1.0)
+
+DEPENDENCIES:
+  - QKNavigationController (from `../`)
+
+EXTERNAL SOURCES:
+  QKNavigationController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QKNavigationController: 03950d885c0eb47d899b296ac0a190afb0c22874
+
+PODFILE CHECKSUM: 1e6e4f1a3f412734e844c8ae9467726313f93e73
+
+COCOAPODS: 1.5.3

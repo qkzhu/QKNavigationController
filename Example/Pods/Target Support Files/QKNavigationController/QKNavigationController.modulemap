@@ -1,0 +1,6 @@
+framework module QKNavigationController {
+  umbrella header "QKNavigationController-umbrella.h"
+
+  export *
+  module * { export * }
+}
