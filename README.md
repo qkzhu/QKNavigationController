@@ -22,7 +22,7 @@ it, simply add the following line to your Podfile:
 pod 'QKNavigationController'
 ```
 
-## How to use
+## How to use (or refer to the short Example)
 ### step 1:
 Use replace `UINavigationController` with `QKNavigationController`
 
@@ -41,7 +41,7 @@ The problem for me to use these libraries is, `JPNavigationController` is compli
 For `JTNavigationController`, it swizzing the `UIViewController`, which make me has no option if I don't need extra properties.
 For both libraries, I need use 1 `XXNavigationController` and 2 `XXViewController` to achive it, somehow I feel not convinient.
 
-`QKNavigationController` is minimize the change to original class and steps to configure, but has the same feature.
+`QKNavigationController` minimizes the change to original class and steps to configure, but has the same feature.
 
 ## Author
 
