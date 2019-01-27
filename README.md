@@ -1,7 +1,7 @@
 # QKNavigationController
 A navigation controller that allows left swipe to push.
 
-[![CI Status](https://img.shields.io/travis/lastencent@gmail.com/QKNavigationController.svg?style=flat)](https://travis-ci.org/lastencent@gmail.com/QKNavigationController)
+[![CI Status](https://img.shields.io/travis/qkzhu/QKNavigationController.svg?style=flat)](https://travis-ci.org/qkzhu/QKNavigationController)
 [![Version](https://img.shields.io/cocoapods/v/QKNavigationController.svg?style=flat)](https://cocoapods.org/pods/QKNavigationController)
 [![License](https://img.shields.io/cocoapods/l/QKNavigationController.svg?style=flat)](https://cocoapods.org/pods/QKNavigationController)
 [![Platform](https://img.shields.io/cocoapods/p/QKNavigationController.svg?style=flat)](https://cocoapods.org/pods/QKNavigationController)
