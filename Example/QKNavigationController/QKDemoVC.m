@@ -6,6 +6,8 @@
 //  Copyright © 2019 lastencent@gmail.com. All rights reserved.
 //
 
+static const NSInteger MAX_PAGE_COUNT = 5;
+
 #import "QKDemoVC.h"
 #import "QKNavigationController.h"
 
@@ -88,7 +90,7 @@
 - (UIViewController *)prepareViewControllerToPush
 {
     NSInteger next = self.num + 1;
-    return next > 5 ? nil : [[QKDemoVC alloc] initWithNum:next];
+    return next > MAX_PAGE_COUNT ? nil : [[QKDemoVC alloc] initWithNum:next];
 }
 
 
