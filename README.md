@@ -29,10 +29,14 @@ Use replace `UINavigationController` with `QKNavigationController`
 ### Step 2:
 Make your `ViewController` conform protocol  `QKNavigationControllerDelegate`, there is one function that tells what instance of `UIViewController` you want to push when user left swipe.
 
+### `QKNavigationControllerDelegate` is optional:
+Feel free to ignore the delegate or return `nil`, `QKNavigationController` will handle it.
+
 ## Discussion
 There a some libraries that I provide similar feature, such as:
 * [JTNavigationController](https://github.com/ikanam/JTNavigationController)
 * [JPNavigationController](https://github.com/newyjp/JPNavigationController)
+
 The problem for me to use these libraries is, `JPNavigationController` is complicated, too much features that I don't use.
 For `JTNavigationController`, it swizzing the `UIViewController`, which make me has no option if I don't need extra properties.
 For both libraries, I need use 1 `XXNavigationController` and 2 `XXViewController` to achive it, somehow I feel not convinient.
