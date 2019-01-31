@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "QKNavigationController.h"
+#import "FPSLabel.h"
 
-FOUNDATION_EXPORT double QKNavigationControllerVersionNumber;
-FOUNDATION_EXPORT const unsigned char QKNavigationControllerVersionString[];
+FOUNDATION_EXPORT double FPSLabelVersionNumber;
+FOUNDATION_EXPORT const unsigned char FPSLabelVersionString[];
 

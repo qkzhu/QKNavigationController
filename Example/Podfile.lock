@@ -1,16 +1,23 @@
 PODS:
+  - FPSLabel (1.0.1)
   - QKNavigationController (0.1.0)
 
 DEPENDENCIES:
+  - FPSLabel
   - QKNavigationController (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FPSLabel
 
 EXTERNAL SOURCES:
   QKNavigationController:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QKNavigationController: 03950d885c0eb47d899b296ac0a190afb0c22874
+  FPSLabel: a6386de76a8fa767102bcb2c18b7c605a3ac3d75
+  QKNavigationController: c23bc2291f88e7117eb4d1c57568cae63bde2d80
 
-PODFILE CHECKSUM: 1e6e4f1a3f412734e844c8ae9467726313f93e73
+PODFILE CHECKSUM: fd7764ce05dbfb628e435d87070a730a7901d0fb
 
 COCOAPODS: 1.5.3

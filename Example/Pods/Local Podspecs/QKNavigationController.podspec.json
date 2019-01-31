@@ -1,7 +1,7 @@
 {
   "name": "QKNavigationController",
   "version": "0.1.0",
-  "summary": "A lightweight navigation controller that allows left swipe to push.",
+  "summary": "A navigation controller that allows left swipe to push.",
   "homepage": "https://github.com/qkzhu/QKNavigationController",
   "license": {
     "type": "MIT",
@@ -17,5 +17,7 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "QKNavigationController/*.{h,m}"
+  "source_files": "QKNavigationController/*.{h,m}",
+  "requires_arc": true,
+  "public_header_files": "QKNavigationController/QKNavigationController.h"
 }

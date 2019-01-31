@@ -7,34 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14C2C15FE4F15F50432D31D82A312511 /* QKNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A4502A9B7670FC76FBE2F13A77171C /* QKNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		212B5BDAEC70EFF0B1B4B5B93FFA047D /* QKNavigationController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64776452EE6D7E95D321A4800360D1A2 /* QKNavigationController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		434D72E8A081A933B8F2A71978871D8B /* QKNavigationController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DAD95EC6299D067B6A8703B33AA1A1 /* QKNavigationController-dummy.m */; };
-		6BF22596CFF83A8AB33300C149ADD903 /* QKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1CBDE62B423839541F4C3ECC23F37B /* QKNavigationController.m */; };
-		8C515E5CAC1B14FCA4271DFA138B1AB0 /* Pods-QKNavigationController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A3EF940EDFDD5E35437229039BB84F /* Pods-QKNavigationController_Example-dummy.m */; };
+		208546834FAD32F3DAB3BF5BE037DE7C /* QKNavigationController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64776452EE6D7E95D321A4800360D1A2 /* QKNavigationController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		287D74CCB24968C473E371B6C67150A8 /* QKNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A4502A9B7670FC76FBE2F13A77171C /* QKNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B9EC078BBC10FA8061720543D61344A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		63AFB3B452B2D1534620DCE00285B9A7 /* FPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F88D04567C84AB6BC4F09130879B10 /* FPSLabel.m */; };
+		66D6C0EEA91B1F334EBAAAAB8924D839 /* QKNaviPushTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E987730B39F62D35985F87DFB622C70 /* QKNaviPushTransition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66F8937E2E56AF1385FD95804F5248F8 /* Pods-QKNavigationController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A3EF940EDFDD5E35437229039BB84F /* Pods-QKNavigationController_Example-dummy.m */; };
+		82724A1CC57D239B92FBE392FE8E09BE /* FPSLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2798D4846E150C08DE694B4367117A /* FPSLabel-dummy.m */; };
 		8FD2FAD0ED9364079A06DCDE690D152E /* Pods-QKNavigationController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D18BFB2626D1FFF1392D7EF832AA4B16 /* Pods-QKNavigationController_Tests-dummy.m */; };
-		9CF3D25AFB261E31A849F1FD89D13777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A4C96B46BCE90AFC7AD9D929C1EB2723 /* QKNaviPushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AC83563D2D3E7FB866EA310D6D3A0B /* QKNaviPushTransition.m */; };
-		BC060F027A1CEF3BF0991FB2AE090181 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		BC8F83067B8DCC7F3279B41DF37CCCF2 /* Pods-QKNavigationController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF157B56A14F15F414E43F4BC7C8133 /* Pods-QKNavigationController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C861B6A8D2A30A6B2F9C03721D2E652E /* QKNaviPushTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E987730B39F62D35985F87DFB622C70 /* QKNaviPushTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91DED57A0FAED2DF5C578079E7D8FF97 /* QKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1CBDE62B423839541F4C3ECC23F37B /* QKNavigationController.m */; };
+		954A424CF9A56B3A26EAF75678DE20DF /* QKNaviPushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AC83563D2D3E7FB866EA310D6D3A0B /* QKNaviPushTransition.m */; };
+		9D3A8C3889B12B00E71ABB3264F0AE44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A0611BBAD07EBEB029CE6523BBBF4A00 /* QKNavigationController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DAD95EC6299D067B6A8703B33AA1A1 /* QKNavigationController-dummy.m */; };
+		A0AF64A3DC5292B5F768640ED6EB45FD /* Pods-QKNavigationController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF157B56A14F15F414E43F4BC7C8133 /* Pods-QKNavigationController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5FDEDDE7B8E3004ADE0A36F66F3168F /* FPSLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = E1BF410A62C470BD985D089818696C44 /* FPSLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0CDAED5B715E0CCBD8C0F93825E53DE /* Pods-QKNavigationController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7BE918ECBBB580E65402889CE14759 /* Pods-QKNavigationController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E20629BDFA1EF6C4892E5A0405939CB2 /* FPSLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF8EF488958B1EC3BB7B1B2919AFE08 /* FPSLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2F05E094BE1A6EAE91958044F16DB55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F4507F9638DCB816B5B21D01D3F91F91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		770035E22B71BF611C3909BD4C645746 /* PBXContainerItemProxy */ = {
+		13340F71BEA09B7CE8ADB74CCF33B39D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C12F957BA0CFD721EECCC734E83F7450;
+			remoteGlobalIDString = C5B8773F523082D27E9BD1AF7FB14421;
+			remoteInfo = FPSLabel;
+		};
+		623670BEE27370F1B5482121DBD5E8BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17F9FACDEF07FC8305CD52124657E8C7;
 			remoteInfo = QKNavigationController;
 		};
 		BC50072B2D3FC332C6D37E6397B2F423 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0584EBEE5D02828CC2AEC9C65275F350;
+			remoteGlobalIDString = 4AE02323A54734B9E178CA994B4B5077;
 			remoteInfo = "Pods-QKNavigationController_Example";
 		};
 /* End PBXContainerItemProxy section */
@@ -42,7 +54,8 @@
 /* Begin PBXFileReference section */
 		07E5ADCA247B0BEB56206374C11B5DE7 /* QKNavigationController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QKNavigationController.xcconfig; sourceTree = "<group>"; };
 		0B06A2A8FC3E50A46D025087FFED14D7 /* Pods-QKNavigationController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QKNavigationController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1FEDBAC60C5BD04766496836CBE2DC97 /* Pods_QKNavigationController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QKNavigationController_Example.framework; path = "Pods-QKNavigationController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CEDD22A8832B9570849D41B2D84A6AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F9C65815A2176E2AA7218867ED5717 /* Pods_QKNavigationController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QKNavigationController_Example.framework; path = "Pods-QKNavigationController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DFA2A48562C06E2BAFD3DDBED69F97 /* Pods-QKNavigationController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QKNavigationController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		37A2B39617E3B0556337D96C3D4BCA4A /* Pods-QKNavigationController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QKNavigationController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		37DAD95EC6299D067B6A8703B33AA1A1 /* QKNavigationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QKNavigationController-dummy.m"; sourceTree = "<group>"; };
@@ -52,40 +65,56 @@
 		3F1CBDE62B423839541F4C3ECC23F37B /* QKNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QKNavigationController.m; path = QKNavigationController/QKNavigationController.m; sourceTree = "<group>"; };
 		47C4EEEAF073E16E168CF49DFE89DCAF /* QKNavigationController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QKNavigationController-prefix.pch"; sourceTree = "<group>"; };
 		48FA59FAA06EE32134113265C7380299 /* Pods-QKNavigationController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QKNavigationController_Example-resources.sh"; sourceTree = "<group>"; };
+		54F88D04567C84AB6BC4F09130879B10 /* FPSLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FPSLabel.m; path = FPSLabel/FPSLabel.m; sourceTree = "<group>"; };
 		64776452EE6D7E95D321A4800360D1A2 /* QKNavigationController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QKNavigationController-umbrella.h"; sourceTree = "<group>"; };
 		65A4502A9B7670FC76FBE2F13A77171C /* QKNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QKNavigationController.h; path = QKNavigationController/QKNavigationController.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66A3EF940EDFDD5E35437229039BB84F /* Pods-QKNavigationController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QKNavigationController_Example-dummy.m"; sourceTree = "<group>"; };
 		687388C5AA91A80E91FC0C84D4EFD3B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		68F650DE25F6E72FC71F844FD8596555 /* Pods_QKNavigationController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QKNavigationController_Tests.framework; path = "Pods-QKNavigationController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C2D600190A02E7F5E863E82E0EBCAAD /* FPSLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FPSLabel.xcconfig; sourceTree = "<group>"; };
 		76B1736F5BB33D59D43895F6FA8D15B5 /* Pods-QKNavigationController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QKNavigationController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		77F07489EA64428485CB1884D6B2FBD1 /* Pods-QKNavigationController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QKNavigationController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		784794052B2ED67C258BB2F6E0750598 /* QKNavigationController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = QKNavigationController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7C939013809E7B38C1AD9111FB9455BA /* FPSLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FPSLabel.modulemap; sourceTree = "<group>"; };
 		81AC83563D2D3E7FB866EA310D6D3A0B /* QKNaviPushTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QKNaviPushTransition.m; path = QKNavigationController/QKNaviPushTransition.m; sourceTree = "<group>"; };
-		832790066EA58605A2206C0B597104BC /* QKNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QKNavigationController.framework; path = QKNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A67F46070F9CBCF091220871E547A86 /* QKNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QKNavigationController.framework; path = QKNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		935E831FF4FAF9483F95A64E668F5E9B /* Pods-QKNavigationController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QKNavigationController_Tests.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AABF8C22189597FF387F65A7F7B53D1 /* FPSLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FPSLabel-prefix.pch"; sourceTree = "<group>"; };
 		9CD805399D004FBEEE56E84EEA5E4785 /* Pods-QKNavigationController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QKNavigationController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A402BED0AC08C4EE57A24DC6C51F0F11 /* Pods-QKNavigationController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QKNavigationController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ACAB37E798AF057A021EF1C7EDFE45C4 /* Pods-QKNavigationController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QKNavigationController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B8EC325F07D01AA2935ACD5C23FDCE93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9A1EB296CF43498100A9F29A7EB228D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BD2798D4846E150C08DE694B4367117A /* FPSLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FPSLabel-dummy.m"; sourceTree = "<group>"; };
 		BD647C9F2E75FF975F26EDB411A560D4 /* QKNavigationController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QKNavigationController.modulemap; sourceTree = "<group>"; };
 		BFF157B56A14F15F414E43F4BC7C8133 /* Pods-QKNavigationController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QKNavigationController_Example-umbrella.h"; sourceTree = "<group>"; };
 		C329B93742461733E284DB105C470C41 /* Pods-QKNavigationController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QKNavigationController_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		CAEC87433D90E7E9239487709C4121DF /* Pods-QKNavigationController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QKNavigationController_Example.modulemap"; sourceTree = "<group>"; };
 		D18BFB2626D1FFF1392D7EF832AA4B16 /* Pods-QKNavigationController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QKNavigationController_Tests-dummy.m"; sourceTree = "<group>"; };
 		D52E8980DC4C6BD2E63B6D264B4AA524 /* Pods-QKNavigationController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QKNavigationController_Tests-resources.sh"; sourceTree = "<group>"; };
+		E1BF410A62C470BD985D089818696C44 /* FPSLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FPSLabel.h; path = FPSLabel/FPSLabel.h; sourceTree = "<group>"; };
+		EA142ADB730D78318A4B21BE265FE82A /* Pods_QKNavigationController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QKNavigationController_Tests.framework; path = "Pods-QKNavigationController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00BDFC3273B695DDB0C864D282FFB8E /* FPSLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FPSLabel.framework; path = FPSLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F024A919DF8523DD0325A25ED95E846C /* Pods-QKNavigationController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QKNavigationController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FB17D3B668EC37AADB6C743F28F14189 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCF8EF488958B1EC3BB7B1B2919AFE08 /* FPSLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FPSLabel-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A60D4F711D1A77DC5FE445B8F08ED97B /* Frameworks */ = {
+		1601D3680C864107425E15E10C5B14D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC060F027A1CEF3BF0991FB2AE090181 /* Foundation.framework in Frameworks */,
+				4B9EC078BBC10FA8061720543D61344A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0E415B2870B989E0C5FB63A169FCD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4507F9638DCB816B5B21D01D3F91F91 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,17 +126,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F53CD98A1E3E64F08BB425C577C33776 /* Frameworks */ = {
+		F2DE97DD750150243DBBC65AB2CBC7FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CF3D25AFB261E31A849F1FD89D13777 /* Foundation.framework in Frameworks */,
+				9D3A8C3889B12B00E71ABB3264F0AE44 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09AF4A59E2AC6254E6085DE9B4502468 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F00BDFC3273B695DDB0C864D282FFB8E /* FPSLabel.framework */,
+				21F9C65815A2176E2AA7218867ED5717 /* Pods_QKNavigationController_Example.framework */,
+				EA142ADB730D78318A4B21BE265FE82A /* Pods_QKNavigationController_Tests.framework */,
+				8A67F46070F9CBCF091220871E547A86 /* QKNavigationController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		0C252672DF0C74344B00D638A874EBC8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,14 +183,12 @@
 			path = "Target Support Files/Pods-QKNavigationController_Example";
 			sourceTree = "<group>";
 		};
-		27D0D78DEC6950FAC40E03AC03AC0A9F /* Products */ = {
+		25C430A8A79CD2E60A7279BBEEFF56A0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1FEDBAC60C5BD04766496836CBE2DC97 /* Pods_QKNavigationController_Example.framework */,
-				68F650DE25F6E72FC71F844FD8596555 /* Pods_QKNavigationController_Tests.framework */,
-				832790066EA58605A2206C0B597104BC /* QKNavigationController.framework */,
+				5887DF01BCC66B76BEB2D20623782669 /* FPSLabel */,
 			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		442F632A6E734D2A2616A93DCD7FBDAB /* Pod */ = {
@@ -181,13 +219,39 @@
 			path = "Target Support Files/Pods-QKNavigationController_Tests";
 			sourceTree = "<group>";
 		};
+		5887DF01BCC66B76BEB2D20623782669 /* FPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				E1BF410A62C470BD985D089818696C44 /* FPSLabel.h */,
+				54F88D04567C84AB6BC4F09130879B10 /* FPSLabel.m */,
+				6EEDEBA16B37D11D8CA51B72AD057142 /* Support Files */,
+			);
+			name = FPSLabel;
+			path = FPSLabel;
+			sourceTree = "<group>";
+		};
+		6EEDEBA16B37D11D8CA51B72AD057142 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C939013809E7B38C1AD9111FB9455BA /* FPSLabel.modulemap */,
+				6C2D600190A02E7F5E863E82E0EBCAAD /* FPSLabel.xcconfig */,
+				BD2798D4846E150C08DE694B4367117A /* FPSLabel-dummy.m */,
+				9AABF8C22189597FF387F65A7F7B53D1 /* FPSLabel-prefix.pch */,
+				FCF8EF488958B1EC3BB7B1B2919AFE08 /* FPSLabel-umbrella.h */,
+				0CEDD22A8832B9570849D41B2D84A6AC /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FPSLabel";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				102DAFF148794761A0DC1F4A07530C5A /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				27D0D78DEC6950FAC40E03AC03AC0A9F /* Products */,
+				25C430A8A79CD2E60A7279BBEEFF56A0 /* Pods */,
+				09AF4A59E2AC6254E6085DE9B4502468 /* Products */,
 				0C252672DF0C74344B00D638A874EBC8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -239,21 +303,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1BFC2D39E72335561C4253AB474BA565 /* Headers */ = {
+		27CABCA283AA76A9BF7447585ED8146B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				212B5BDAEC70EFF0B1B4B5B93FFA047D /* QKNavigationController-umbrella.h in Headers */,
-				14C2C15FE4F15F50432D31D82A312511 /* QKNavigationController.h in Headers */,
-				C861B6A8D2A30A6B2F9C03721D2E652E /* QKNaviPushTransition.h in Headers */,
+				E20629BDFA1EF6C4892E5A0405939CB2 /* FPSLabel-umbrella.h in Headers */,
+				C5FDEDDE7B8E3004ADE0A36F66F3168F /* FPSLabel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D3FDAA3795B3861B9DBCD07D32AD408 /* Headers */ = {
+		4DAD09ABF8783A2441AC7BC24E82D54D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC8F83067B8DCC7F3279B41DF37CCCF2 /* Pods-QKNavigationController_Example-umbrella.h in Headers */,
+				A0AF64A3DC5292B5F768640ED6EB45FD /* Pods-QKNavigationController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED8672D64428E16A1886E8D24EFFFEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208546834FAD32F3DAB3BF5BE037DE7C /* QKNavigationController-umbrella.h in Headers */,
+				287D74CCB24968C473E371B6C67150A8 /* QKNavigationController.h in Headers */,
+				66D6C0EEA91B1F334EBAAAAB8924D839 /* QKNaviPushTransition.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,22 +341,40 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0584EBEE5D02828CC2AEC9C65275F350 /* Pods-QKNavigationController_Example */ = {
+		17F9FACDEF07FC8305CD52124657E8C7 /* QKNavigationController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 27589281DE1F5119FBFAB3796012DC01 /* Build configuration list for PBXNativeTarget "Pods-QKNavigationController_Example" */;
+			buildConfigurationList = E2758C0187D2A43508DF90DD663675B3 /* Build configuration list for PBXNativeTarget "QKNavigationController" */;
 			buildPhases = (
-				B95CE028515B55B8D4E56743870E9D72 /* Sources */,
-				A60D4F711D1A77DC5FE445B8F08ED97B /* Frameworks */,
-				3D3FDAA3795B3861B9DBCD07D32AD408 /* Headers */,
+				2884C10015C4071AD8D9128F149BEAAC /* Sources */,
+				1601D3680C864107425E15E10C5B14D0 /* Frameworks */,
+				4ED8672D64428E16A1886E8D24EFFFEA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				918C104E1E8284C0A496E05CF7A6DEBC /* PBXTargetDependency */,
+			);
+			name = QKNavigationController;
+			productName = QKNavigationController;
+			productReference = 8A67F46070F9CBCF091220871E547A86 /* QKNavigationController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4AE02323A54734B9E178CA994B4B5077 /* Pods-QKNavigationController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1294A3AD93051FDC6520584DCD98DC5 /* Build configuration list for PBXNativeTarget "Pods-QKNavigationController_Example" */;
+			buildPhases = (
+				6A86548E7BA42C31966B2E296F4B7A9D /* Sources */,
+				F2DE97DD750150243DBBC65AB2CBC7FF /* Frameworks */,
+				4DAD09ABF8783A2441AC7BC24E82D54D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93717EFBB53F8AC7476C18F0F579E04D /* PBXTargetDependency */,
+				06EB59CF8FECF55BF0550CC34D58BC8F /* PBXTargetDependency */,
 			);
 			name = "Pods-QKNavigationController_Example";
 			productName = "Pods-QKNavigationController_Example";
-			productReference = 1FEDBAC60C5BD04766496836CBE2DC97 /* Pods_QKNavigationController_Example.framework */;
+			productReference = 21F9C65815A2176E2AA7218867ED5717 /* Pods_QKNavigationController_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A9EC9ECF9998A0DD8E961C2ED01C8C3C /* Pods-QKNavigationController_Tests */ = {
@@ -301,24 +392,24 @@
 			);
 			name = "Pods-QKNavigationController_Tests";
 			productName = "Pods-QKNavigationController_Tests";
-			productReference = 68F650DE25F6E72FC71F844FD8596555 /* Pods_QKNavigationController_Tests.framework */;
+			productReference = EA142ADB730D78318A4B21BE265FE82A /* Pods_QKNavigationController_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C12F957BA0CFD721EECCC734E83F7450 /* QKNavigationController */ = {
+		C5B8773F523082D27E9BD1AF7FB14421 /* FPSLabel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00AE58331D7F251AA7AA7E1516222852 /* Build configuration list for PBXNativeTarget "QKNavigationController" */;
+			buildConfigurationList = BA3FE92B728BF92381D2084EC436B425 /* Build configuration list for PBXNativeTarget "FPSLabel" */;
 			buildPhases = (
-				8B480ABBD3DF680D099A70313D2024FB /* Sources */,
-				F53CD98A1E3E64F08BB425C577C33776 /* Frameworks */,
-				1BFC2D39E72335561C4253AB474BA565 /* Headers */,
+				9741619C547591806B4DF82EF637D171 /* Sources */,
+				5B0E415B2870B989E0C5FB63A169FCD3 /* Frameworks */,
+				27CABCA283AA76A9BF7447585ED8146B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = QKNavigationController;
-			productName = QKNavigationController;
-			productReference = 832790066EA58605A2206C0B597104BC /* QKNavigationController.framework */;
+			name = FPSLabel;
+			productName = FPSLabel;
+			productReference = F00BDFC3273B695DDB0C864D282FFB8E /* FPSLabel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -338,25 +429,34 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 27D0D78DEC6950FAC40E03AC03AC0A9F /* Products */;
+			productRefGroup = 09AF4A59E2AC6254E6085DE9B4502468 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0584EBEE5D02828CC2AEC9C65275F350 /* Pods-QKNavigationController_Example */,
+				C5B8773F523082D27E9BD1AF7FB14421 /* FPSLabel */,
+				4AE02323A54734B9E178CA994B4B5077 /* Pods-QKNavigationController_Example */,
 				A9EC9ECF9998A0DD8E961C2ED01C8C3C /* Pods-QKNavigationController_Tests */,
-				C12F957BA0CFD721EECCC734E83F7450 /* QKNavigationController */,
+				17F9FACDEF07FC8305CD52124657E8C7 /* QKNavigationController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8B480ABBD3DF680D099A70313D2024FB /* Sources */ = {
+		2884C10015C4071AD8D9128F149BEAAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				434D72E8A081A933B8F2A71978871D8B /* QKNavigationController-dummy.m in Sources */,
-				6BF22596CFF83A8AB33300C149ADD903 /* QKNavigationController.m in Sources */,
-				A4C96B46BCE90AFC7AD9D929C1EB2723 /* QKNaviPushTransition.m in Sources */,
+				A0611BBAD07EBEB029CE6523BBBF4A00 /* QKNavigationController-dummy.m in Sources */,
+				91DED57A0FAED2DF5C578079E7D8FF97 /* QKNavigationController.m in Sources */,
+				954A424CF9A56B3A26EAF75678DE20DF /* QKNaviPushTransition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A86548E7BA42C31966B2E296F4B7A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F8937E2E56AF1385FD95804F5248F8 /* Pods-QKNavigationController_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,33 +468,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B95CE028515B55B8D4E56743870E9D72 /* Sources */ = {
+		9741619C547591806B4DF82EF637D171 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C515E5CAC1B14FCA4271DFA138B1AB0 /* Pods-QKNavigationController_Example-dummy.m in Sources */,
+				82724A1CC57D239B92FBE392FE8E09BE /* FPSLabel-dummy.m in Sources */,
+				63AFB3B452B2D1534620DCE00285B9A7 /* FPSLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		06EB59CF8FECF55BF0550CC34D58BC8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QKNavigationController;
+			target = 17F9FACDEF07FC8305CD52124657E8C7 /* QKNavigationController */;
+			targetProxy = 623670BEE27370F1B5482121DBD5E8BD /* PBXContainerItemProxy */;
+		};
 		3588E76F8EEE9B3ABFD29DC289084BF2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-QKNavigationController_Example";
-			target = 0584EBEE5D02828CC2AEC9C65275F350 /* Pods-QKNavigationController_Example */;
+			target = 4AE02323A54734B9E178CA994B4B5077 /* Pods-QKNavigationController_Example */;
 			targetProxy = BC50072B2D3FC332C6D37E6397B2F423 /* PBXContainerItemProxy */;
 		};
-		918C104E1E8284C0A496E05CF7A6DEBC /* PBXTargetDependency */ = {
+		93717EFBB53F8AC7476C18F0F579E04D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = QKNavigationController;
-			target = C12F957BA0CFD721EECCC734E83F7450 /* QKNavigationController */;
-			targetProxy = 770035E22B71BF611C3909BD4C645746 /* PBXContainerItemProxy */;
+			name = FPSLabel;
+			target = C5B8773F523082D27E9BD1AF7FB14421 /* FPSLabel */;
+			targetProxy = 13340F71BEA09B7CE8ADB74CCF33B39D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0B46E9B08307B697C0BD8E78E410519F /* Release */ = {
+		11F275E805BE66ED7BA91D7583B531D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 07E5ADCA247B0BEB56206374C11B5DE7 /* QKNavigationController.xcconfig */;
 			buildSettings = {
@@ -424,6 +531,66 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		12CF512F300B6B6D4356328A9F6AD8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E5ADCA247B0BEB56206374C11B5DE7 /* QKNavigationController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QKNavigationController/QKNavigationController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QKNavigationController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QKNavigationController/QKNavigationController.modulemap";
+				PRODUCT_MODULE_NAME = QKNavigationController;
+				PRODUCT_NAME = QKNavigationController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		13C8A80D515F08B2B3E2EC67FC69658E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C2D600190A02E7F5E863E82E0EBCAAD /* FPSLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FPSLabel/FPSLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FPSLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FPSLabel/FPSLabel.modulemap";
+				PRODUCT_MODULE_NAME = FPSLabel;
+				PRODUCT_NAME = FPSLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -521,7 +688,71 @@
 			};
 			name = Debug;
 		};
-		75250556F056628FE72FAB68648FBEF2 /* Release */ = {
+		3BDA26AEEEE26C20B8BDAD0B6D83A813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACAB37E798AF057A021EF1C7EDFE45C4 /* Pods-QKNavigationController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QKNavigationController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QKNavigationController_Example/Pods-QKNavigationController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D75C85368FDC471358768638BC034477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C2D600190A02E7F5E863E82E0EBCAAD /* FPSLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FPSLabel/FPSLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FPSLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FPSLabel/FPSLabel.modulemap";
+				PRODUCT_MODULE_NAME = FPSLabel;
+				PRODUCT_NAME = FPSLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB3945AC466999EE2C60A092BCA8170B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A402BED0AC08C4EE57A24DC6C51F0F11 /* Pods-QKNavigationController_Example.release.xcconfig */;
 			buildSettings = {
@@ -554,69 +785,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		97EFF5207485013C29C9BCE23C2F5899 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07E5ADCA247B0BEB56206374C11B5DE7 /* QKNavigationController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QKNavigationController/QKNavigationController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QKNavigationController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QKNavigationController/QKNavigationController.modulemap";
-				PRODUCT_MODULE_NAME = QKNavigationController;
-				PRODUCT_NAME = QKNavigationController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B5C61719854A2DEB7866269D538AD1A3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACAB37E798AF057A021EF1C7EDFE45C4 /* Pods-QKNavigationController_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QKNavigationController_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QKNavigationController_Example/Pods-QKNavigationController_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		E3FA874C53A0E9F7382B39AECAAD44A8 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -713,15 +881,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00AE58331D7F251AA7AA7E1516222852 /* Build configuration list for PBXNativeTarget "QKNavigationController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				97EFF5207485013C29C9BCE23C2F5899 /* Debug */,
-				0B46E9B08307B697C0BD8E78E410519F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		0DA164B63114F1FD847EC59357E137B4 /* Build configuration list for PBXNativeTarget "Pods-QKNavigationController_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -731,20 +890,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		27589281DE1F5119FBFAB3796012DC01 /* Build configuration list for PBXNativeTarget "Pods-QKNavigationController_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B5C61719854A2DEB7866269D538AD1A3 /* Debug */,
-				75250556F056628FE72FAB68648FBEF2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
 				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA3FE92B728BF92381D2084EC436B425 /* Build configuration list for PBXNativeTarget "FPSLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C8A80D515F08B2B3E2EC67FC69658E /* Debug */,
+				D75C85368FDC471358768638BC034477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1294A3AD93051FDC6520584DCD98DC5 /* Build configuration list for PBXNativeTarget "Pods-QKNavigationController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BDA26AEEEE26C20B8BDAD0B6D83A813 /* Debug */,
+				DB3945AC466999EE2C60A092BCA8170B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2758C0187D2A43508DF90DD663675B3 /* Build configuration list for PBXNativeTarget "QKNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12CF512F300B6B6D4356328A9F6AD8C9 /* Debug */,
+				11F275E805BE66ED7BA91D7583B531D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

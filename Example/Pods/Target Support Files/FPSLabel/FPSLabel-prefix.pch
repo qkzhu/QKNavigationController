@@ -10,8 +10,3 @@
 #endif
 #endif
 
-#import "QKNavigationController.h"
-
-FOUNDATION_EXPORT double QKNavigationControllerVersionNumber;
-FOUNDATION_EXPORT const unsigned char QKNavigationControllerVersionString[];
-

@@ -315,10 +315,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-QKNavigationController_Example/Pods-QKNavigationController_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FPSLabel/FPSLabel.framework",
 				"${BUILT_PRODUCTS_DIR}/QKNavigationController/QKNavigationController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FPSLabel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QKNavigationController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,7 +513,7 @@
 				GCC_PREFIX_HEADER = "QKNavigationController/QKNavigationController-Prefix.pch";
 				INFOPLIST_FILE = "QKNavigationController/QKNavigationController-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qkzhu.QKNavigationController.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -526,7 +528,7 @@
 				GCC_PREFIX_HEADER = "QKNavigationController/QKNavigationController-Prefix.pch";
 				INFOPLIST_FILE = "QKNavigationController/QKNavigationController-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qkzhu.QKNavigationController.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

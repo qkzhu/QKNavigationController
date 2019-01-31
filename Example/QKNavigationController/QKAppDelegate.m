@@ -9,6 +9,7 @@
 #import "QKAppDelegate.h"
 #import "QKNavigationController.h"
 #import "QKDemoVC.h"
+#import <FPSLabel/FPSLabel.h>
 
 @interface QKAppDelegate ()
 
@@ -25,6 +26,7 @@
     QKDemoVC *startingVC = [[QKDemoVC alloc] initWithNum:0];
     self.rootVC.viewControllers = @[startingVC];
     self.window.rootViewController = self.rootVC;
+    [FPSLabel installOnWindow:self.window];
     [self.window makeKeyAndVisible];
     
     return YES;

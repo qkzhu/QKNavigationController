@@ -1,0 +1,6 @@
+framework module FPSLabel {
+  umbrella header "FPSLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
